@@ -18,7 +18,7 @@ class Prompts {
 		std::map<std::string, std::map<std::string, std::string>> prompts_and_responses;
 		std::map<std::string, std::string> int_to_prompt;
 		int numPrompts = 1;
-		ChatGPT chat = ChatGPT("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");
+		ChatGPT chat = ChatGPT("SECRET_KEY");
 		void loadData();
 		
 

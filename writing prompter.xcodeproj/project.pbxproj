@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA606E1E29D239BE007892A2 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CA606E1D29D239BE007892A2 /* libsqlite3.tbd */; };
+		CA606E2029D239CE007892A2 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CA606E1F29D239CE007892A2 /* libsqlite3.0.tbd */; };
+		CA606E2329D23C8D007892A2 /* ChatGPT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA606E2229D23C8D007892A2 /* ChatGPT.cpp */; };
+		CA606E2729D24395007892A2 /* libcurl.4.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CA606E2429D24395007892A2 /* libcurl.4.tbd */; };
+		CA606E2829D24395007892A2 /* libcurl.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CA606E2529D24395007892A2 /* libcurl.3.tbd */; };
+		CA606E2929D24395007892A2 /* libcurl.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CA606E2629D24395007892A2 /* libcurl.tbd */; };
+		CA606E4029D26734007892A2 /* prompt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA606E3F29D26734007892A2 /* prompt.cpp */; };
+		CA82BE8C29CFA9B0002BB050 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA82BE8B29CFA9B0002BB050 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CA82BE8629CFA9B0002BB050 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CA606E1429CFD9BB007892A2 /* prompt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = prompt.h; sourceTree = "<group>"; usesTabs = 1; };
+		CA606E1D29D239BE007892A2 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		CA606E1F29D239CE007892A2 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		CA606E2129D23C75007892A2 /* ChatGPT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatGPT.h; sourceTree = "<group>"; };
+		CA606E2229D23C8D007892A2 /* ChatGPT.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ChatGPT.cpp; sourceTree = "<group>"; };
+		CA606E2429D24395007892A2 /* libcurl.4.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcurl.4.tbd; path = usr/lib/libcurl.4.tbd; sourceTree = SDKROOT; };
+		CA606E2529D24395007892A2 /* libcurl.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcurl.3.tbd; path = usr/lib/libcurl.3.tbd; sourceTree = SDKROOT; };
+		CA606E2629D24395007892A2 /* libcurl.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcurl.tbd; path = usr/lib/libcurl.tbd; sourceTree = SDKROOT; };
+		CA606E3F29D26734007892A2 /* prompt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = prompt.cpp; sourceTree = "<group>"; };
+		CA82BE8829CFA9B0002BB050 /* writing prompter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "writing prompter"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA82BE8B29CFA9B0002BB050 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA82BE8529CFA9B0002BB050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA606E2729D24395007892A2 /* libcurl.4.tbd in Frameworks */,
+				CA606E2829D24395007892A2 /* libcurl.3.tbd in Frameworks */,
+				CA606E2929D24395007892A2 /* libcurl.tbd in Frameworks */,
+				CA606E2029D239CE007892A2 /* libsqlite3.0.tbd in Frameworks */,
+				CA606E1E29D239BE007892A2 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA606E1529CFD9F6007892A2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				CA606E3F29D26734007892A2 /* prompt.cpp */,
+				CA82BE8B29CFA9B0002BB050 /* main.cpp */,
+				CA606E2229D23C8D007892A2 /* ChatGPT.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		CA606E1629CFD9FF007892A2 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				CA606E1429CFD9BB007892A2 /* prompt.h */,
+				CA606E2129D23C75007892A2 /* ChatGPT.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		CA606E1C29D239BE007892A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA606E2529D24395007892A2 /* libcurl.3.tbd */,
+				CA606E2429D24395007892A2 /* libcurl.4.tbd */,
+				CA606E2629D24395007892A2 /* libcurl.tbd */,
+				CA606E1F29D239CE007892A2 /* libsqlite3.0.tbd */,
+				CA606E1D29D239BE007892A2 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA82BE7F29CFA9B0002BB050 = {
+			isa = PBXGroup;
+			children = (
+				CA82BE8A29CFA9B0002BB050 /* writing prompter */,
+				CA82BE8929CFA9B0002BB050 /* Products */,
+				CA606E1C29D239BE007892A2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA82BE8929CFA9B0002BB050 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA82BE8829CFA9B0002BB050 /* writing prompter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA82BE8A29CFA9B0002BB050 /* writing prompter */ = {
+			isa = PBXGroup;
+			children = (
+				CA606E1529CFD9F6007892A2 /* src */,
+				CA606E1629CFD9FF007892A2 /* include */,
+			);
+			path = "writing prompter";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA82BE8729CFA9B0002BB050 /* writing prompter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA82BE8F29CFA9B0002BB050 /* Build configuration list for PBXNativeTarget "writing prompter" */;
+			buildPhases = (
+				CA82BE8429CFA9B0002BB050 /* Sources */,
+				CA82BE8529CFA9B0002BB050 /* Frameworks */,
+				CA82BE8629CFA9B0002BB050 /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "writing prompter";
+			productName = "writing prompter";
+			productReference = CA82BE8829CFA9B0002BB050 /* writing prompter */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA82BE8029CFA9B0002BB050 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CA82BE8729CFA9B0002BB050 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = CA82BE8329CFA9B0002BB050 /* Build configuration list for PBXProject "writing prompter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA82BE7F29CFA9B0002BB050;
+			productRefGroup = CA82BE8929CFA9B0002BB050 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA82BE8729CFA9B0002BB050 /* writing prompter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA82BE8429CFA9B0002BB050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA606E2329D23C8D007892A2 /* ChatGPT.cpp in Sources */,
+				CA82BE8C29CFA9B0002BB050 /* main.cpp in Sources */,
+				CA606E4029D26734007892A2 /* prompt.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CA82BE8D29CFA9B0002BB050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CA82BE8E29CFA9B0002BB050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CA82BE9029CFA9B0002BB050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KC3CQK77B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = "/opt/homebrew/Cellar/**";
+				"HEADER_SEARCH_PATHS[arch=*]" = "";
+				LIBRARY_SEARCH_PATHS = "/opt/homebrew/Cellar/**";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA82BE9129CFA9B0002BB050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KC3CQK77B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = "/opt/homebrew/Cellar/**";
+				"HEADER_SEARCH_PATHS[arch=*]" = "";
+				LIBRARY_SEARCH_PATHS = "/opt/homebrew/Cellar/**";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA82BE8329CFA9B0002BB050 /* Build configuration list for PBXProject "writing prompter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA82BE8D29CFA9B0002BB050 /* Debug */,
+				CA82BE8E29CFA9B0002BB050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA82BE8F29CFA9B0002BB050 /* Build configuration list for PBXNativeTarget "writing prompter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA82BE9029CFA9B0002BB050 /* Debug */,
+				CA82BE9129CFA9B0002BB050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA82BE8029CFA9B0002BB050 /* Project object */;
+}
